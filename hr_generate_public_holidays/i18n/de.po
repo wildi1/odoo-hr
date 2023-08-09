@@ -1,0 +1,103 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_generate_public_holidays
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-28 16:01+0000\n"
+"PO-Revision-Date: 2023-05-28 16:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_generate_public_holidays
+#: model_terms:ir.ui.view,arch_db:hr_generate_public_holidays.hr_generate_public_holidays_wizard_view_form
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,help:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__years
+msgid "Comma separated list of years possible"
+msgstr "Kommaseparierte List von Jahren"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__public_holiday_count
+msgid "Count"
+msgstr "Anzahl"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__country_id
+msgid "Country"
+msgstr "Land"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: hr_generate_public_holidays
+#: model:ir.actions.act_window,name:hr_generate_public_holidays.hr_generate_public_holidays_wizard_action
+#: model_terms:ir.ui.view,arch_db:hr_generate_public_holidays.hr_generate_public_holidays_wizard_view_form
+#: model:ir.ui.menu,name:hr_generate_public_holidays.hr_generate_public_holidays_menu_generate_public_holidays
+msgid "Generate Public Holidays"
+msgstr "Gesetzliche Feiertage erstellen"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__lang
+msgid "Language"
+msgstr "Sprache"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt geändert durch"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__preview
+msgid "Preview"
+msgstr "Vorschau"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__state_id
+msgid "State"
+msgstr "Bundelsand"
+
+#. module: hr_generate_public_holidays
+#: model:ir.model,name:hr_generate_public_holidays.model_hr_generate_public_holidays_wizard
+msgid "This model represents Hr Generate Public Holidays Wizard."
+msgstr ""
+
+#. module: hr_generate_public_holidays
+#: model:ir.model.fields,field_description:hr_generate_public_holidays.field_hr_generate_public_holidays_wizard__years
+msgid "Years"
+msgstr "Jahre"

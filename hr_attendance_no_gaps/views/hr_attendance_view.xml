@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_employee_form_inherit_hr_attendance" model="ir.ui.view">
+        <field name="name">view.employee.form.inherit.hr.attendance</field>
+        <field name="model">hr.employee</field>
+        <field
+            name="inherit_id"
+            ref="hr_attendance.view_employee_form_inherit_hr_attendance"
+        />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//button[@name='%(hr_attendance.hr_attendance_action)d']"
+                position="attributes"
+            >
+                <attribute name="context">
+                    {'search_default_employee_id': id, 'search_default_reallyworked': True}
+                </attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_attendance_view_filter" model="ir.ui.view">
+        <field name="name">hr.attendance.view.filter</field>
+        <field name="model">hr.attendance</field>
+        <field name="inherit_id" ref="hr_attendance.hr_attendance_view_filter" />
+        <field name="arch" type="xml">
+            <filter name="nocheckout" position="after">
+                <filter
+                    string="Really Worked"
+                    name="reallyworked"
+                    domain="[('worked_hours', '>', 0)]"
+                />
+            </filter>
+        </field>
+    </record>
+
+</odoo>

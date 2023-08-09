@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_attendance_no_gaps
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-29 21:14+0000\n"
+"PO-Revision-Date: 2023-04-29 21:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_attendance_no_gaps
+#: model:ir.model,name:hr_attendance_no_gaps.model_hr_attendance
+msgid "Attendance"
+msgstr "Anwesenheit"
+
+#. module: hr_attendance_no_gaps
+#: model:ir.model,name:hr_attendance_no_gaps.model_hr_employee
+msgid "Employee"
+msgstr "Mitarbeiter"
+
+#. module: hr_attendance_no_gaps
+#: model:ir.actions.server,name:hr_attendance_no_gaps.ir_cron_hr_attendance_fill_gaps_ir_actions_server
+#: model:ir.cron,cron_name:hr_attendance_no_gaps.ir_cron_hr_attendance_fill_gaps
+msgid "HR Attendance no gaps: Fill Gaps"
+msgstr "HR Anwesenheit: Fülle Lücken"
+
+#. module: hr_attendance_no_gaps
+#: model:ir.model.fields,field_description:hr_attendance_no_gaps.field_hr_attendance__is_generated
+msgid "Is Generated"
+msgstr "Generiert"
+
+#. module: hr_attendance_no_gaps
+#: model_terms:ir.ui.view,arch_db:hr_attendance_no_gaps.hr_attendance_view_filter
+msgid "Really Worked"
+msgstr "Tatsächlich gearbeitet"
+
+#. module: hr_attendance_no_gaps
+#: model:ir.model.fields,field_description:hr_attendance_no_gaps.field_hr_employee__count_attendance_from
+msgid "Count Attendance From"
+msgstr "Zeiten zählen ab"

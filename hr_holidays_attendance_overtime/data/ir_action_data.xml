@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.actions.server" id="action_hr_employee_update_overtime">
+        <field name="name">Update Overtime</field>
+        <field name="model_id" ref="hr.model_hr_employee" />
+        <field name="binding_model_id" ref="hr.model_hr_employee" />
+        <field name="state">code</field>
+        <field name="code">
+            if records:
+                records.mapped('attendance_ids')._update_overtime()
+        </field>
+    </record>
+
+    <record model="ir.actions.server" id="action_leaves_update_overtime">
+        <field name="name">Update Overtime</field>
+        <field name="model_id" ref="resource.model_resource_calendar_leaves" />
+        <field name="binding_model_id" ref="resource.model_resource_calendar_leaves" />
+        <field name="state">code</field>
+        <field name="code">
+            if records:
+                records._get_attendances()._update_overtime()
+        </field>
+    </record>
+</odoo>
